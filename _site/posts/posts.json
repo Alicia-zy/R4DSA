@@ -18,8 +18,8 @@
   },
   {
     "path": "posts/2021-05-24-my-first-post/",
-    "title": "my first post",
-    "description": "A short description of the post.",
+    "title": "My First Post",
+    "description": "Draw multiple histograms using ggplot2 and ggpubr packages.",
     "author": [
       {
         "name": "Alicia Zhang",
@@ -30,7 +30,7 @@
     "categories": [],
     "contents": "\n1.0 Overview\nIn this article, we will show you how to plot a figure with multiple histograms by using ggplot2 and ggpubr packages.\n2.0 Installing and Launching R Packages\nBefore you get started, you are required:\nto start a new R project, and\nto create a new R Markdown document.\n\nNext, you will use the code chunk below to install and launch ggpubr and tidyverse in RStudio.\n\n\n\n3.0 Importing and Preparing The Data Set\nIn this hands-on exercise, the Wine Quality Data Set of UCI Machine Learning Repository will be used. The data set consists of 13 variables and 6497 observations. For the purpose of this exercise, we have combined the red wine and white wine data into one data file. It is called wine_quality and is in csv file format.\n3.1 Importing Data\nFirst, let us import the data into R by using read_csv() of readr package.\n\n\n\nNotice that beside quality and type, the rest of the variables are numerical and continuous data type.\n4.0 Univariate EDA with Histogram\nIn the figure below, multiple histograms are plottted by using ggplot() and geom_histogram() of ggplot2 package. Then, ggarrange() of ggpubr package is used to patch these histogram into a single figure to reveal the distribution of the selected variables in the wine quality data sets.\n\n\n\n\n\n\n",
     "preview": "posts/2021-05-24-my-first-post/my-first-post_files/figure-html5/unnamed-chunk-2-1.png",
-    "last_modified": "2021-05-24T23:08:51+08:00",
+    "last_modified": "2021-05-24T23:21:48+08:00",
     "input_file": "my-first-post.knit.md"
   }
 ]
